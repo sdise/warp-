@@ -67,7 +67,7 @@ while True:
 		print(f"[:)] {g} GB has been successfully added to your account.")
 		print(f"[#] Total: {g} Good {b} Bad")
 		print("[*] After 18 seconds, a new request will be sent.")
-		time.sleep(600)
+		time.sleep(60)
 	else:
 		b = b + 1
 		os.system('cls' if os.name == 'nt' else 'clear')
